@@ -18,10 +18,10 @@ _A light-weight, open source tool specifically designed to create digital editio
 ## Getting up and running
 
 1. Install Node.js and NPM. Both are contained in the installer, which you can download from [https://nodejs.org/en/](https://nodejs.org/en/) - choose the version labelled as "Recommended for Most Users". (Windows users can find some additional instructions at: [https://treehouse.github.io/installation-guides/windows/node-windows.html](https://treehouse.github.io/installation-guides/windows/node-windows.html))
-2. Install `http-server` by following the [instructions to install it globally](https://github.com/indexzero/http-server#installing-globally) - type `npm install http-server -g`
+2. Install `http-server` by following the [instructions to install it globally](https://github.com/indexzero/http-server#installing-globally) - in your command line type `npm install http-server -g`
 3. Download a copy of the EVT 2 software from [http://evt.labcd.unipi.it](http://evt.labcd.unipi.it)
 4. Unzip the folder to your desktop (or another location, if you prefer)
-5. Using the command line (Terminal in Macs), change directory (use the `cd` command) to the folder containing the EVT software. If you need some help changing directories with the Command Line, there is an [interactive tutorial available on CodeAcademy](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation-u)
+5. Using the command line, change directory (use the `cd` command) to the folder containing the EVT software. If you need some help changing directories with the Command Line, there is an [interactive tutorial available on CodeAcademy](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation-u)
 6. Once in the directory with the EVT files, type `http-server -c-1` - this will start your webserver and should show you an address similar to `http://127.0.0.1:8080`. You should leave this terminal window open.
 7. Copy this address into your browser's address bar, and press enter 
 8. Congratulations! You are now viewing a website running on your computer.
